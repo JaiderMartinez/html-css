@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="formulario-body">
+    <h1 id="h1-formulario">FORMULARIO DE REGISTRO</h1>
+    <center><img id="imagen-formulario" src="https://i.pinimg.com/736x/7c/00/2b/7c002be4f8fbad45db6e5bd0eeac3f82.jpg" alt="imagen de anime perfil"/></center>
+    <form class="formulario" >
+        <label>Nombre: </label>
+        <input type="text" placeholder="Escribe tu nombre aqui">
+        <br>
+        <label>Apellido: </label>
+        <input type="text" placeholder="Escribe tu apellido aqui">
+        <br>
+        <label>Sexo: </label>
+        <label><input type="radio" name="sexo">Masculino</label>
+        <label><input type="radio" name="sexo">Femenino</label>
+        <br>
+        <label>Correo Electronico: </label>
+        <input type="email" placeholder="Escribe tu correo electronico aqui">
+        <br>
+        <label>Poblacion: </label>
+        <select required>
+            <option>Seleccione</option>
+            <option>Gregaria</option>
+            <option>colonial</option>
+            <option>Blanco</option>
+        </select>
+        <br>
+        <label>Descripcion: </label>
+        <textarea cols="70" rows="10" placeholder="Escribe una descripcion a la poblacion que perteneces"></textarea>
+        <br>    
+        <label class="formulario-checkbox" ><input type="checkbox" checked>Deseo recibir informacion sobre novedades y ofertas</label>
+        <br>
+        <label class="formulario-checkbox"><input type="checkbox" checked>Declaro haber leido y aceptar las condiciones generales del programa y la
+            normativa sobre proteccion de datos</label>
+        <br>
+	<a href="tabla.html" target="_blank" ><input type= "button" value= "Enviar" "/></a>
+    </form>
+</body>
+
+</html>

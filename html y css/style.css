@@ -1,0 +1,99 @@
+
+/*Desde aqui comienza los estilos del archivo index */
+
+.menu {
+    background: rgba(0, 0, 0, 0, 7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#abrir-cerrar {
+    display: none;
+}
+
+#h2 {
+	border:2px solid #AAA;
+    padding: 5px;
+    margin: 20px;
+}
+
+#datos{
+    margin:30px 20px;
+    padding: 30px 40px;
+    font-size: 20px;
+    border:4px dotted #F00;
+    border-right: none;
+    border-left: none;
+}
+
+#h1 {
+	border-bottom: 2px solid #00F;
+    font-size: 25px;
+    text-align: left;
+    padding: 15px;
+}
+
+#img-firefox {
+	width: 200px;
+    margin: auto;
+    padding: 30px;
+}
+#div-imagen {
+    text-align: center;
+}
+
+#lista {
+	list-style-type:circle;
+    text-align: left;
+    font-size: 20px;
+    width: 1225px;
+    line-height: 2rem;
+    margin: auto;
+    border:4px dotted rgb(0, 255, 0);
+    padding: 10px 30px;
+}
+
+#p {
+	padding: 5px 35px;
+}
+
+#div-input {
+    text-align: center;
+}
+
+#input:hover {
+    text-align: center;
+    cursor: pointer;
+  	background: darkorchid;
+  	color: rgb(255, 255, 255);
+}
+
+/*Desde aqui comienza los estilos del archivo formulario */
+
+#imagen-formulario {
+	margin: 20px;
+    border-radius: 20px;
+    width: 160px;
+}
+
+#h1-formulario {
+	text-align: center;
+}
+
+.formulario{
+    border:none;
+    border-radius:5px;
+    padding: 30px;
+    text-align: center;
+}
+
+.formulario-body {
+    background-color: gainsboro;
+}
+
+.formulario-checkbox {
+	padding: 40px 20px;
+}
+
+/*Desde aqui comienza los estilos del archivo formulario */

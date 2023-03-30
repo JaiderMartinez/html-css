@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css"  href="styleIngreso.css"/>
+	<title>Inicio de Sesion</title>
+</head>
+<body>
+	<div class="contenedor">
+		<h2>Bienvenido al Inicio de Sesion</h2>
+		<form>
+			<label class="campo"  for="username">Username</label>
+			<input class="campo" type="text" name="username" id="username" placeholder="numero de documento" required />
+			<br>
+			<label class="campo" for="password">Contraseña</label>
+			<input class="campo" type="password" name="password" id="password" placeholder="Contrasena" required />
+			<br>
+			<input class="boton" type="button" role="link" onclick="window.location='index.html'" value="Iniciar sesión" />
+		</form>
+		<p><a href="olvidoContraseña.html">¿olvido su contraseña?</a></p>
+		<p><a href="formulario.html">¿no tienes cuenta? Regístrate</a></p>
+	</div>
+</body>
+</html>

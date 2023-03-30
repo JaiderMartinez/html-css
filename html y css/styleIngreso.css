@@ -1,0 +1,79 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(0, 0, 64);
+}
+
+.contenedor {
+	width: 450px;
+  	background: #24303c;
+  	padding: 40px;
+  	margin: auto;
+  	margin-top: 100px;
+  	border-radius: 4px;
+  	font-family: 'calibri';
+  	color: white;
+  	box-shadow: 7px 13px 37px #000;
+}
+
+h2 {
+ 	color: white;
+ 	text-align: center;
+ 	margin-left:30px;
+}
+
+p, a {
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+label{
+  	display: block;
+  	margin: 0%;
+  	padding: 0%;
+  	text-align: center;
+  	margin-bottom: 4%;
+}
+
+input {
+  	padding: 4px;
+  	text-align: center;
+	color: blue;
+  	width: 100%;
+  	border: none;
+  	border-bottom: 1px solid rgb(255, 255, 255);
+  	background-color: #24303c;
+  	margin-bottom: 2%;
+}
+
+#username, #password {
+}
+
+.contenedor .campo {
+	color: white;
+	font-family: 'calibri';
+  	font-size: 18px;
+}
+
+.contenedor .boton {
+  	padding: 7px;
+  	color: rgb(255, 255, 255);
+  	background-color: rgb(128, 128, 128);
+  	margin: 13px;
+  	font-family: 'calibri';
+  	font-size: 18px;
+  	border: 1px solid rgb(255, 255, 255);
+	border-radius: 4px;
+	width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  	margin-left: 50%;
+  	transform: translateX(-50%);
+
+}
+
+.boton:hover {
+  	cursor: pointer;
+  	background: rgb(0, 0, 64);
+  	color: rgb(255, 255, 255);
+}
+
+
