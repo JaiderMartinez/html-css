@@ -4,41 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <title>Tabla</title>
+    <link rel="stylesheet" type="text/css"  href="tablaCss.css"/>
 </head>
 
 <body>
+	<header>
+      <div class="despegable" >
+        <label for="abrir-cerrar">&#9776; <span class="abrir">abrir</span> <span class="cerrar"></span></label>
+        <ul class="links">
+          <li><a href="./index.html"class="header_item" >MOZILLA IS COOL</a></li>
+          <li><a href="./formulario.html "  class="header_item">FORMULARIO DE REGISTRO</a></li>
+          <li><a href="./Login.html"  class="header_item">INICIO DE SESION</a></li>
+          <li><a href="./tabla.html"  class="header_item">ACERCA DE NAVEGADORES</a></li>
+          <li><a href="./contacto.html"  class="header_item">CONTACTO</a></li>
+        </ul>
+      </div>
+  </header>
     <h1 align="center">NAVEGADORES: CARACTERISTICAS, VENTAJAS Y DESVENTAJAS</h1>
-    <table border="1px" align="center">
-        <tr align="center">
-            <td>NAVEGADOR</td>
-            <td>CARACTERISTICAS</td>
-            <td>VENTAJAS</td>
-            <td>DESVENTAJAS</td>
-        </tr>
-        <tr align="center">
-            <td>
-                <p align="center">1. Google Chrome</p>
-                <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2012/05/chrome.jpg?w=512&quality=50&strip=all&ssl=1"
-                    width="50px" height="50px" alt="Google Chrome">
-            </td>
-            <td>se caracteriza por la sencillez en su interfaz. Para los usuarios es importante que el navegador sea
-                sencillo
-                y funcional ya que tienen como objetivo utilizarlo como medio para acceder a la información (sitios)
-                específicos. En otras palabras el navegador es sólo una herramienta y como tal debe ser sencilla de
-                utilizar.
-            </td>
-            <td>
-                Al ser un explorador tan completo y versátil, capaz de adaptarse a distintos Sistemas Operativos, 
-                las ventajas de Google Chrome son muy variadas.
-            </td>
-            <td>
-                Sobrecarga en la memoria del dispositivo cuando hay muchas pestañas abiertas.
-                El navegador por si solo genera gran consumo de memoria RAM.
-                El almacenamiento de cookies puede resultar riesgoso para la privacidad del usuario.
-            </td>
-        </tr>
-    </table>
-    <p><a href="index.html">Ir al formulario de registro</a></p>
+    <div class="contenedor">
+    
+        <table border="1px" align="center" >
+            <thead>
+                <tr class="fila-titulo-contenido">
+                    <th>NAVEGADOR</th>
+                    <th>CARACTERISTICA</th>
+                    <th>VENTAJAS</th>
+                    <th>DESVENTAJAS</th>
+                </tr>
+            </thead>
+            <tr class="contenido-fila" >
+                <td> <center>Google Chrome<img src="https://play-lh.googleusercontent.com/KwUBNPbMTk9jDXYS2AeX3illtVRTkrKVh5xR1Mg4WHd0CG2tV4mrh1z3kXi5z_warlk=w240-h480-rw" alt="google chrome" width="170px"></center></td>
+                <td>Interfaz sencilla y funcional, eficacia, pestañas independientes, soporta mejoras y actualizaciones, navegacion segura, marcadores instantaneos, barra de busqueda, descargas</td>
+                <td>Rápido y fiable, sincronización de datos, buenas opciones para la expansión de la función</td>
+                <td>No hay buena protección de datos, alta carga en la memoria principal cuando hay muchas pestañas abiertas</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center> Mozilla Firefox<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Mozilla_Firefox_logo_2013.svg/800px-Mozilla_Firefox_logo_2013.svg.png" alt="Mozilla Firefox" width="160px"></center></td>
+                <td>Apto para equipos de sobremesa, portátiles y dispositivos móviles, buena seguridad y excelente protección de datos, el navegador es altamente personalizable, fácil manejo y sincronización de datos y contraseñas</td>
+                <td>Muchas extensiones, alta protección de datos, buena gestión de las contraseñas</td>
+                <td>Ocasionalmente un alto uso de recursos, mayor riesgo de caída</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center> Internet Explorer<img src="https://s1.ppllstatics.com/elcorreo/www/multimedia/202008/31/media/cortadas/internet-explorer-U70885953289qSH-U12059797992B4E-1248x770@El%20Correo-ElCorreo.jpg" alt="Internet Explorer" width="210px"> </center></td>
+                <td>Navegador, es un complemento indispensable, era el lider en internet</td>
+                <td>Facilita la comunicación, ofrece información en tiempo real, facilita las compras en otros países a través de internet, permite crear y descargar softwares libres</td>
+                <td>Presenta fallas como la traba de las páginas, la página se carga completa y no por partes, haciendo más lento el proceso, el sistema de carga de las páginas es tardado debido a que utiliza la barra de carga, posee un bajo nivel de seguridad a nivel informático en relación a otros navegadores</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center>Safari</center> <center><img src="https://img.utdstc.com/icon/a67/783/a67783359829d461741c9aa07b15dcb644a6adf3ddf8e1556a0aa50598a131eb:200" alt="Safari" width="180px"></center></td>
+                <td>Sincroniza todas tus contraseñas, marcadores, historial, pestañas y más de forma integrada en tu Mac, iPad, iPhone y Apple Watch</td>
+                <td>Buen rendimiento y fiable para los dispositivos Apple, muy buena protección de datos</td>
+                <td> No es compatible con Windows o Android, falta seguridad ya que las actualizaciones se llevan a cabo muy poco a poco, menos extensiones que otros navegadores</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center>Maxthon <img src="https://w7.pngwing.com/pngs/873/770/png-transparent-maxthon-web-browser-firefox-internet-explorer-computer-icons-firefox-text-trademark-sphere-thumbnail.png" alt="Maxthon" width="180px"></center></td>
+                <td>Cuenta con una interfaz de exploración por pestañas, cuentas con personalización de gestos con el ratón, cuentas con las funciones arrastrar y soltar, tienes mayor protección y privacidad, este navegador es compatible con la barra de Google, Live y Yahoo, tienes una barra adicional de utilidades externas.</td>
+                <td>Es simple y muy fácil de usar, es un navegador de alta velocidad, puedes editar y personalizar lo que quieras dentro de el. puedes navegar por distintas páginas web, bloquea los anuncios de los sitios web.</td>
+                <td>Este navegador es limitado siempre y cuando quieras conseguir algo en específico, el navegador no es perfecto como todos los navegadores siempre tienen algo que tienen que llegar a mejorar</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center>Netscape Navigator <img src="https://images.sftcdn.net/images/t_app-icon-m/p/8f3b8a26-96d3-11e6-adc1-00163ed833e7/2050344813/netscape-browser-logo.jpg" alt="Nestcape Navigator" width="180px"></center></td>
+                <td>Se integra CSS, JavaScript y soporte para los estándares HTML para mantenerse al día con las tendencias de diseño de páginas web</td>
+                <td>Integración con otros programas, múltiples ventanas en pestañas, marcadores</td>
+                <td>Bloqueo de versiones antiguas, no existen nuevas actualizaciones</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center>Opera</center>  <center><img src="https://play-lh.googleusercontent.com/tkwW6uWRyX7Weduiqz8y26b-ks4NTQjtILg50srjSuN1c2UZj3mxpWD2cBme51gp6Q" alt="Opera" width="170px"></center></td>
+                <td>Apto para equipos de sobremesa, portátiles y dispositivos móviles, disponible para Windows, macOS, Linux y Android, borrado automático de la memoria caché, modo turbo para conexiones de Internet lentas, una cómoda barra lateral muestra el Messenger y los marcadores</td>
+                <td>Ampliable con addons, muy seguro, buena sincronización de los dispositivos de escritorio y móviles</td>
+                <td>No está preinstalado, debe descargarse e instalarse</td>
+            </tr>
+            <tr class="contenido-fila" >
+                <td><center>Avant</center>  <center><img src="https://www.ecured.cu/images/1/10/AvantBrowser.jpeg" alt="Avant" width="180px"></center></td>
+                <td>es un navegador rápido, estable, de atractivo aspecto visual y que permite tener varias ventanas abiertas dentro de la misma instancia del navegador consiguiendo así ahorrar espacio en la barra de tareas. Además está disponible en 40 idiomas.</td>
+                <td>Sin anuncios, sin Malware, multi-Proceso, navegador Web con menor uso de memoria, descarga ficheros de video, acelerador de descargas integrado, modo vista partida</td>
+                <td>El programa por ser una versión beta, presenta bugs, que causa el bloqueo total de la página, consume muchos recursos de la conexión, es un colador de pasta para atrapar todo tipo de bichos informáticos</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>

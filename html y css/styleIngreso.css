@@ -1,15 +1,66 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60px;
+    color: white;
+}
+
+.abrir {
+	font-size: 18px;
+}
+
+.despegable{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+ 	padding: 16px 5px;
+ 	overflow: auto;
+}
+
+.links{
+    text-align: left;
+    list-style: none;
+    display: none;
+    background-color: black;
+    position: absolute;
+}
+
+.despegable:hover .links{
+    display: block;
+}
+
+.links .header_item:hover {
+	color: #FFFFFF;
+  	background-color: #00A4BD;
+}
+
+.header_item{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 25px 30px;
+    display: block;
+    overflow: auto;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: rgb(0, 0, 64);
+	background-color: rgba(5, 5, 5, 0.568);
+}
+
+input[type="text"],
+		input[type="password"] {
+			padding: 10px;
 }
 
 .contenedor {
 	width: 450px;
-  	background: #24303c;
+  	background: #000;
   	padding: 40px;
-  	margin: auto;
-  	margin-top: 100px;
+  	margin: 40px 400px;
+  	margin-top: 40px;
   	border-radius: 4px;
   	font-family: 'calibri';
   	color: white;
@@ -38,15 +89,12 @@ label{
 input {
   	padding: 4px;
   	text-align: center;
-	color: blue;
+	color: rgba(47, 47, 202, 0.973);
   	width: 100%;
   	border: none;
-  	border-bottom: 1px solid rgb(255, 255, 255);
+  	border-bottom: 1px solid rgb(11, 84, 194);
   	background-color: #24303c;
   	margin-bottom: 2%;
-}
-
-#username, #password {
 }
 
 .contenedor .campo {
@@ -57,12 +105,12 @@ input {
 
 .contenedor .boton {
   	padding: 7px;
-  	color: rgb(255, 255, 255);
-  	background-color: rgb(128, 128, 128);
+  	color: rgba(255, 255, 255, 0.932);
+  	background-color: rgb(3, 3, 3);
   	margin: 13px;
   	font-family: 'calibri';
   	font-size: 18px;
-  	border: 1px solid rgb(255, 255, 255);
+  	border: 1px solid rgb(13, 34, 228);
 	border-radius: 4px;
 	width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
   	margin-left: 50%;
@@ -72,7 +120,7 @@ input {
 
 .boton:hover {
   	cursor: pointer;
-  	background: rgb(0, 0, 64);
+  	background: rgb(22, 22, 255);
   	color: rgb(255, 255, 255);
 }
 

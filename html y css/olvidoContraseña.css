@@ -1,0 +1,122 @@
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60px;
+    color: white;
+}
+
+.abrir {
+	font-size: 18px;
+}
+
+
+.despegable{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+ 	padding: 16px 5px;
+ 	 width: 100%;
+ 	 overflow: auto;
+}
+
+.links{
+    text-align: left;
+    list-style: none;
+    display: none;
+    background-color: black;
+    position: absolute;
+}
+
+.despegable:hover .links{
+    display: block;
+}
+
+.links .header_item:hover {
+	color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+.header_item{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 25px 30px;
+    display: block;
+    overflow: auto;
+}
+
+ body{
+        background-color: #222121;
+        font-family: Arial, sans-serif;
+        /*background-image:url(https://img.freepik.com/vector-premium/codigo-binario-matrix_115579-664.jpg)*/
+      }
+      
+      *{
+        color: white;
+        
+      }
+
+      form {
+        background-color: #000000;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(148, 238, 121, 0.562);
+        margin: 100px auto;
+        max-width: 300px;
+        padding: 100px;
+        position: relative;
+        left: 300px;
+    
+      }
+      
+      #h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      
+      label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      
+      input {
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+        box-sizing: border-box;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+      }
+      
+      button {
+        background-color: #00ff4c;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px;
+        width: 100%;
+      }
+      .boton1{
+        background-color: #ff0000;
+        border: 1px solid #ccc;
+        border-radius: 50px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px;
+        width: 100%;
+
+      }
+      
+      .search {
+        display: block;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+      }

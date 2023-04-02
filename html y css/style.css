@@ -1,19 +1,57 @@
 
 /*Desde aqui comienza los estilos del archivo index */
 
-.menu {
-    background: rgba(0, 0, 0, 0, 7);
-    width: 100%;
-    position: fixed;
-    z-index: 100;
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 60px;
+    color: white;
 }
 
-#abrir-cerrar {
-    display: none;
+.abrir {
+	font-size: 18px;
 }
+
+
+.despegable{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+ 	padding: 16px 5px;
+ 	 width: 100%;
+ 	 overflow: auto;
+}
+
+.links{
+    text-align: left;
+    list-style: none;
+    display: none;
+    background-color: black;
+    position: absolute;
+}
+
+.despegable:hover .links{
+    display: block;
+}
+
+.links .header_item:hover {
+	color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+.header_item{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 25px 30px;
+    display: block;
+    overflow: auto;
+}
+
 
 #h2 {
-	border:2px solid #AAA;
+    border:2px solid #AAA;
     padding: 5px;
     margin: 20px;
 }

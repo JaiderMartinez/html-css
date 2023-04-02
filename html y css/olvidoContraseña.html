@@ -4,14 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Cambiar Contraseña</title>
+    <link rel="stylesheet" type="text/css"  href="olvidoContraseña.css"/>
 </head>
 
 <body>
+	<header>
+      <div class="despegable" >
+        <label for="abrir-cerrar">&#9776; <span class="abrir">ABRIR</span> <span class="cerrar"></span></label>
+        <ul class="links">
+          <li><a href="./index.html"class="header_item" >MOZILLA IS COOL</a></li>
+          <li><a href="./formulario.html "  class="header_item">FORMULARIO DE REGISTRO</a></li>
+          <li><a href="./Login.html"  class="header_item">INICIO DE SESION</a></li>
+          <li><a href="./tabla.html"  class="header_item">ACERCA DE NAVEGADORES</a></li>
+          <li><a href="./contacto.html"  class="header_item">CONTACTO</a></li>
+        </ul>
+      </div>
+  </header>
+  
     <h1>Olvidaste tu contraseña</h1>
-    <p>Mozilla enviara las instrucciones sobre como restablecer tu contraseña a la direccion de correo electronico asociada a tu cuenta.</p>
-    <p>Por favor, escribe tu email</p>
-    <input type="text" placeholder="Correo electronico"/>
-    <input type="submit" value="Recuperar Contraseña"/>
+    <p id="h1">Mozilla enviara las instrucciones sobre como restablecer tu contraseña a la direccion de correo electronico asociada a tu cuenta.</p>
+    <p id="h3">Por favor, escribe tu email</p>
+    <input type="text"  placeholder="Correo electronico"/>
+    <input type="submit" class="boton1" value="Recuperar Contraseña"/>
+    <button type="search">Buscar</button>
 </body>
 
 </html>
